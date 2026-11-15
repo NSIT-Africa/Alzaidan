@@ -4,7 +4,7 @@
 // base URL and Authorization header are never duplicated.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const BASE_URL = import.meta.env.VITE_API_URL || "https://alzaidan-backend-production.up.railway.app/api";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://alzaidan-backend-production-edfccd76.up.railway.app/api";
 //https://alzaidan-backend-production.up.railway.app/api
 // ── Token helpers ─────────────────────────────────────────────────────────────
 export const getToken  = ()         => localStorage.getItem("alzaidan_token");
